@@ -96,6 +96,13 @@
 			<version>${version.junit}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Peticiones REST -->
+        <dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>jaxrs-api</artifactId>
+		    <version>3.0.12.Final</version>
+		</dependency>
 	</dependencies>
 
 	<build>
